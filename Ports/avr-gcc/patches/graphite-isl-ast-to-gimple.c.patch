@@ -1,0 +1,18 @@
+--- gcc/graphite-isl-ast-to-gimple.c.orig	2019-06-30 12:32:51.000000000 +0200
++++ gcc/graphite-isl-ast-to-gimple.c	2019-06-30 12:33:31.000000000 +0200
+@@ -38,6 +38,7 @@
+ #endif
+ #endif
+ 
++#include <map>
+ #include "system.h"
+ #include "coretypes.h"
+ #include "hash-set.h"
+@@ -75,7 +76,6 @@
+ #include "tree-scalar-evolution.h"
+ #include "gimple-ssa.h"
+ #include "tree-into-ssa.h"
+-#include <map>
+ 
+ #ifdef HAVE_isl
+ #include "graphite-poly.h"

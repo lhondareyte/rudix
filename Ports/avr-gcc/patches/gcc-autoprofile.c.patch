@@ -1,0 +1,15 @@
+--- gcc/auto-profile.c.orig	2019-06-30 12:30:35.000000000 +0200
++++ gcc/auto-profile.c	2019-06-30 12:31:00.000000000 +0200
+@@ -19,11 +19,11 @@
+ <http://www.gnu.org/licenses/>.  */
+ 
+ #include "config.h"
+-#include "system.h"
+ 
+ #include <string.h>
+ #include <map>
+ #include <set>
++#include "system.h"
+ 
+ #include "coretypes.h"
+ #include "hash-set.h"
