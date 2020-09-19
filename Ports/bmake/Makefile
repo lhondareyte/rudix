@@ -2,7 +2,7 @@ include ../../Library/Configure.mk
 
 Title=		bmake
 Name=		bmake
-Version=	20170812
+Version=	20200710
 Site=		http://crufty.net/help/sjg/bmake.html
 Source=		http://www.crufty.net/ftp/pub/sjg/bmake-$(Version).tar.gz
 License=	BSD
