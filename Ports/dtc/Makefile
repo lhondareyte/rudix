@@ -2,7 +2,7 @@ include ../../Library/Unix.mk
 
 Title=		dtc
 Name=		dtc
-Version=	1.5.1
+Version=	1.6.0
 Site=		https://git.kernel.org/pub/scm/utils/dtc/dtc.git/
 Source=		https://git.kernel.org/pub/scm/utils/dtc/dtc.git/snapshot/$(Name)-$(Version).tar.gz
 License=	GPL
